@@ -13,6 +13,7 @@
 		3BFAE9551D2C072F000EADB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFAE9531D2C072F000EADB8 /* Main.storyboard */; };
 		3BFAE9571D2C072F000EADB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFAE9561D2C072F000EADB8 /* Assets.xcassets */; };
 		3BFAE95A1D2C072F000EADB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFAE9581D2C072F000EADB8 /* LaunchScreen.storyboard */; };
+		3BFAE9641D2C0832000EADB8 /* PSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFAE9631D2C0832000EADB8 /* PSAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3BFAE9561D2C072F000EADB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BFAE9591D2C072F000EADB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BFAE95B1D2C072F000EADB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BFAE9621D2C0832000EADB8 /* PSAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAnimationView.h; sourceTree = "<group>"; };
+		3BFAE9631D2C0832000EADB8 /* PSAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		3BFAE9491D2C072F000EADB8 /* PullAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				3BFAE9611D2C07C9000EADB8 /* View */,
 				3BFAE94D1D2C072F000EADB8 /* AppDelegate.h */,
 				3BFAE94E1D2C072F000EADB8 /* AppDelegate.m */,
 				3BFAE9501D2C072F000EADB8 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				3BFAE94B1D2C072F000EADB8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BFAE9611D2C07C9000EADB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BFAE9621D2C0832000EADB8 /* PSAnimationView.h */,
+				3BFAE9631D2C0832000EADB8 /* PSAnimationView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				3BFAE9521D2C072F000EADB8 /* ViewController.m in Sources */,
 				3BFAE94F1D2C072F000EADB8 /* AppDelegate.m in Sources */,
+				3BFAE9641D2C0832000EADB8 /* PSAnimationView.m in Sources */,
 				3BFAE94C1D2C072F000EADB8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

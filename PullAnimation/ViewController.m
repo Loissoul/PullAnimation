@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PSAnimationView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    PSAnimationView *psView = [[PSAnimationView alloc] initWithFrame:CGRectMake(0, 0, 320, 568)];
+    psView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:psView];
 }
 
 - (void)didReceiveMemoryWarning {
